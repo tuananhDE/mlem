@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+  security:
+    oauth2:
+      client:
+        registration:
+         google:
+          clientId: 469943327971-8fffetdpa31q51a14goo387d6pqeoclj.apps.googleusercontent.com
+          clientSecret: laQBokIMxK_DGhk1iF4qpmNN
+          provider: GOOGLE
+          scope:
+           - email
+           - profile
+         facebook:
+            client-id: 852205995334882
+            client-secret: 004ac422d79bf849d83ab1bb3f9b9e37
+            provider: FACEBOOK
+            scope:
+            - email
+            - public_profile
+         
